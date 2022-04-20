@@ -1,0 +1,305 @@
+  
+  .newh2{
+    position: absolute;
+    width: 320px;
+    height: 61px;
+    left: 39%;
+    top: 200px;
+    
+    /* H2 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 125%;
+  }
+
+  .nadpis3{
+    position: absolute;
+    width: 479px;
+    height: 64px;
+    left: 35%;
+    top: 280px;
+    
+    /* Paragraph */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    /* or 32px */
+    
+    text-align: center;
+    
+    color: #111111;
+  }
+  
+  .center {
+    position: relative;
+    top: 380px;
+    left: 680px;
+    margin: 2px;
+    width: 700px;
+  
+  }
+  
+  .center .inputbox {
+    position: relative;
+    width: 470px;
+    height: 58px;
+    margin-bottom: 50px;
+  }
+  .center .inputbox input {
+   position: absolute;
+  height: 58px;
+    margin-bottom: 20px;
+      padding: 5px;
+      margin-left: 20px;
+      width: 90%;
+      border: 1px solid #6EB1FB;
+      line-height: 20px;
+      border-radius: 10px;
+  }
+  
+  ::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+  
+  
+    color: #939393;
+  }
+  
+  #second{
+      margin-top: -30px;
+  }
+  
+  #third{
+      margin-top: -60px;
+  }
+  
+  input{
+    outline-color: #6EB1FB;
+  }
+  
+  form{
+      width: 480px;
+  }
+  
+  .phone{
+    position: absolute;
+    left: 11%;
+    right: 77.17%;
+    top: 300px;
+    bottom: 9.43%;
+  }
+  
+  .postpaid{
+      display: none;
+  }
+
+  .shape_wave_w4{
+    position: absolute;
+    left: 69.32%;
+    right: 21.47%;
+    top: 320px;
+    bottom: 13.71%; 
+  }
+  
+  .shape_sphere-w4{
+    position: absolute;
+    left: 75.2%;
+    right: 21.36%;
+    top: 390px;
+    bottom: 13.15%;
+  }
+  .send{
+    position: absolute;
+      width: 270px;
+      height: 60px;
+      left: 90px;
+      top: 235px;
+      background: #6BD75F;
+      border-radius: 5px;
+      border: none;
+      cursor:  pointer;
+  }
+
+  .send:hover{
+    border: 2px solid #67AEFC;
+}
+
+  .send:active{
+    background: #67AEFC;
+}
+  
+  .btnclr2{
+  
+  /* Button */
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+
+  
+  @media (max-width: 480px) {
+        
+  .newh2{
+    position: absolute;
+    width: 320px;
+    height: 61px;
+    left: 10%;
+    top: 56px;
+/* H2 mobile */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 150%;
+    /* or 34px */
+
+    text-align: center;
+
+    color: #111111;
+  }
+
+  .nadpis3{
+    position: absolute;
+    width: 329px;
+    height: 60px;
+    left: 10%;
+    top: 105px;
+    
+    /* Paragraph */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 175%;
+    /* or 30px */
+    
+    text-align: center;
+    
+    color: #111111;
+  }
+  
+  .center {
+    position: relative;
+    top: 190px;
+    left: 10%;
+    margin: 2px;
+    width: 700px;
+  
+  }
+  
+  .center .inputbox {
+    position: relative;
+    width: 335px;
+    height: 58px;
+    margin-bottom: 50px;
+  }
+  .center .inputbox input {
+   position: absolute;
+  height: 58px;
+    margin-bottom: 20px;
+      padding: 5px;
+      margin-left: 20px;
+      width: 90%;
+      border: 1px solid #6EB1FB;
+      line-height: 20px;
+      border-radius: 10px;
+  }
+  
+  ::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+  
+  
+    color: #939393;
+  }
+  
+  #second{
+      margin-top: -30px;
+  }
+  
+  #third{
+      margin-top: -60px;
+  }
+  
+  input{
+    outline-color: #6EB1FB;
+  }
+  
+  form{
+      width: 480px;
+  }
+  
+  .phone{
+    display: none;
+
+  }
+
+  .postpaid{
+    position: relative;
+    left: 18.37%;
+    right: -13.14%;
+    top: 24.2%;
+    bottom: 12.36%;
+    display: block;
+  }
+  
+  .shape_wave_w4{
+    display: none;
+  }
+  
+  .shape_sphere-w4{
+      display: none;
+  }
+  .send{
+      position: absolute;
+      width: 335px;
+      height: 60px;
+      left: 0px;
+      top: 235px;
+      background: #6BD75F;
+      border-radius: 10px;
+      border: none;
+  }
+  
+  .btnclr2{
+  
+  /* Button */
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+
+  .new_window5{
+      height: 839px;
+      
+  }
+
+  }

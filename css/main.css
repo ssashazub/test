@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+
+
+   
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  overflow-x:hidden;
+}
+
+
+
+.window{
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 766px;
+  left: 0px;
+  background: #FFFFFF;
+}
+
+
+.new_window{
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0px 0px 100px;
+  left: 0px;
+  background: #DAECFF;
+}
+
+.new_window2{
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 908px;
+  left: 0px;
+}
+
+.new_window3{
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 1749px;
+  left: 0px;
+  
+  background: #DAECFF;
+}
+
+
+.new_window4{
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 724px;
+  background: #FFFFFF;
+}
+
+.new_window5{
+  position: relative;
+  max-width: 1920px;
+  height: 774px;
+  background: #DAECFF;
+  margin: 0 auto;
+}
+
+
+.new_H{
+  position: absolute;
+width: 680px;
+height: 40px;
+
+top: 680px;
+
+/* H2 */
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 125%;
+/* identical to box height, or 40px */
+
+
+color: #000000;
+
+}
+
+.etap{
+
+}
+
+.shape_wave_new_w{
+  position: absolute;
+  top: 500px;
+  left: 1200px;
+}
+
+.shape_sphre_new_w{
+    position: absolute;
+    top: -130px;
+    left: -190px;
+}
+
+

@@ -1,0 +1,200 @@
+
+.h23{
+    position: relative;
+    width: 630.67px;
+    height: 40px;
+    left: 370px;
+    text-align: center;
+    top: 250px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 125%;
+    color: #111111;
+    
+  }
+  
+
+
+  .nadpis2{
+    position: absolute;
+    width: 432px;
+    height: 88px;
+    left: 80px;
+    top: -130px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+  }
+  
+  .nadpis2weight{
+    width: 600px;
+    left: 68%;
+    top: 480px;
+  }
+  
+  .zayava{
+    position: absolute;
+    width: 270px;
+    height: 60px;
+    left: 370px;
+    top: 520px;
+    border: none;
+    background: #75E169;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .zayava:hover{
+    border: 2px solid #67AEFC;
+}
+
+  .zayava:active{
+    background: #67AEFC;
+}
+
+  .btnclr1{
+  
+  /* Button */
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+  
+  .sphere_w3{
+    position: absolute;
+    left: 7.97%;
+    right: 88.96%;
+    top: 190px;
+    bottom: 28.44%;
+    
+  }
+  
+  .order{
+    position: relative;
+    left: 53%;
+    right: -28.33%;
+    top: 22.42%;
+    bottom: 21.77%;
+  }
+
+  
+  .group_w4{
+    display: none;
+}
+
+.shape_share_phone{
+    display: none;
+}
+
+  @media (max-width: 480px) {
+
+      .new_window4{
+        height: 791px;
+      }
+
+    .h23{
+        position: absolute;
+        width: 280px;
+        height: 68px;
+        left: 66px;
+        top: 60px;
+        
+        /* H2 mobile */
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 23px;
+        line-height: 150%;
+        /* or 34px */
+        
+        text-align: center;
+        
+        color: #111111;
+      }
+
+      .order{
+        display: none;
+  }
+
+  .group_w4{
+    display: block;
+    position: relative;
+    width: 259.87px;
+    height: 181.99px;
+    left: 26%;
+    top: 23%;
+}
+  
+
+  .shape_share_phone{
+    display: block;
+    position: relative;
+    left: 130.85%;
+    top: -26.77%;
+    bottom: 39.06%;
+}
+
+
+  .nadpis2{
+    position: absolute;
+    width: 335px;
+    height: 325px;
+    left: -235px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 175%;
+    color: #111111;
+    
+  }
+  
+  .nadpis2weight{
+    width: 320px;
+    left: 86%;
+    top: 516px;
+  }
+  
+  .zayava{
+    position: absolute;
+    width: 334px;
+    height: 60px;
+    left: 40px;
+    top: 690px;
+    background: #75E169;
+    border-radius: 10px;
+  }
+  .btnclr1{
+  
+  /* Button */
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 175%;
+  /* or 26px */
+  
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  }
+  
+  .sphere_w3{
+   display: none;
+  }
+}
+  

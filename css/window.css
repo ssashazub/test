@@ -1,0 +1,307 @@
+.window {
+    position: relative;
+}
+
+H1{
+    position: absolute;
+    width: 560px;
+    height: 189px;
+    left: 19%;
+    top: 150px;
+
+    /* H1 */
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    /* or 62px */
+
+
+    color: #484848;
+}
+p{
+    position: absolute;
+
+    height: 88px;
+    left: 19%;
+    top: 375px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #000000;
+}
+.zakaz{
+    position: absolute;
+    width: 270px;
+    height: 60px;
+    left: 19%;
+    top: 521px;
+    border: none;
+    background: #75E169;
+    border-radius: 5px;
+      cursor: pointer;
+}
+
+.zakaz:hover{
+    border: 2px solid #67AEFC;
+}
+
+.zakaz:active{
+    background: #67AEFC;
+}
+
+.btnclr{
+
+  /* Button */
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.market{
+  position: absolute;
+  left: 51.77%;
+  right: 21.72%;
+  top: 140px;
+  bottom: 86.47%;
+
+transform: rotate(-3deg);
+}
+.ellipse{
+  position: absolute;
+  width: 609.5px;
+  height: 548px;
+  left: 68%;
+  top: 77px;
+}
+.shape_cylinder{
+  position: absolute;
+  left: 64.11%;
+  right: 29.95%;
+  top: 14%;
+  bottom: 96.06%;
+}
+.shape_wave{
+  position: absolute;
+  left: 51.68%;
+  right: 39.43%;
+  top: 65%;
+  bottom: 90.41%;
+}
+.shape_wave1{
+  position: absolute;
+  left: 76.61%;
+  right: 11.82%;
+  top: 40%;
+  bottom: 92.71%;
+}
+.shape_share{
+  position: absolute;
+  left: 84.96%;
+  right: 12.97%;
+  top: 55%;
+  bottom: 90.85%;
+}
+.shape_cylinder1{
+  position: absolute;
+  left: 80%;
+  right: 14.22%;
+  top:76%;
+  bottom: 87.8%;
+}
+.shape_share1{
+  position: absolute;
+  left: 12.45%;
+  right: 84.81%;
+  top: 20%;
+  bottom: 95.67%;
+}
+.ellipse1{
+  position: relative;
+  width: 149px;
+  height: 183px;
+  left: -2px;
+  top: 545px;
+}
+.ellipse3_mobile{
+    display: none;
+}
+.layer{
+  position: absolute;
+  left: 3%;
+  right: 78.91%;
+  top: 80%;
+  bottom: 87.62%;
+}
+
+
+@media (max-width: 480px) {
+
+H1{
+    position: absolute;
+    width: 350px;
+    height: 189px;
+    left: 10%;
+    top: 357px;
+
+    /* H1 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 120%;
+    /* or 32px */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+p{
+    position: absolute;
+    height: 88px;
+    left: 11%;
+    top: 465px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+
+br{
+  display: none;
+}
+
+.zakaz{
+    width: 335px;
+    height: 60px;
+    left: 35px;
+    top: 650px;
+
+    background: #75E169;
+    border-radius: 10px;
+}
+.btnclr{
+
+  /* Button */
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.market{
+  position: absolute;
+  left: 22%;
+  right: 21.72%;
+  top: 94px;
+  bottom: 86.47%;
+  width: 254px;
+  height: 250px;
+
+
+transform: rotate(14deg);
+}
+.ellipse{
+  position: absolute;
+  width: 290px;
+  height: 314px;
+  left: 56%;
+  top: 35px;
+}
+.shape_cylinder{
+    position: absolute;
+    left: 37.11%;
+    right: 29.95%;
+    top: 8%;
+    bottom: 96.06%;
+    width: 47px;
+    height: 22px;
+}
+.shape_wave{
+    position: absolute;
+    left: 19.68%;
+    right: 39.43%;
+    top: 25%;
+    bottom: 90.41%;
+    width: 78px;
+    height: 28px;
+}
+.shape_wave1{
+    position: absolute;
+    left: -1.39%;
+    right: 11.82%;
+    top: 37%;
+    bottom: 92.71%;
+    width: 67px;
+    height: 26px;
+}
+.shape_share{
+    position: absolute;
+    left: 80.96%;
+    right: 12.97%;
+    top: 26%;
+    bottom: 90.85%;
+    width: 24px;
+    height: 23px;
+}
+.shape_cylinder1{
+    position: absolute;
+    left: 68%;
+    right: 14.22%;
+    top: 35%;
+    bottom: 87.8%;
+    width: 66px;
+    height: 35px;
+}
+.shape_share1{
+  display: none;
+}
+.ellipse1{
+    display: none;
+}
+.ellipse3_mobile{
+  display: block;
+  position: relative;
+  top: 5%;
+}
+.layer{
+    position: absolute;
+    left: 67%;
+    right: 78.91%;
+    top: 19%;
+    bottom: 87.62%;
+    transform: scale(-1, 1);
+    width: 91px;
+
+}
+
+.shape_sphere_purple{
+    position: absolute;
+    left: 85.07%;
+    right: 10.93%;
+    top: 11.17%;
+    bottom: 88.56%;
+    display: flex;
+
+}
+
+}

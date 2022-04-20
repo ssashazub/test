@@ -1,0 +1,390 @@
+h2{
+    position: absolute;
+  width: 1194px;
+  height: 105px;
+  left: 363px;
+  top: 100px;
+
+  /* H2 */
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  /* or 40px */
+
+  text-align: center;
+
+  color: #111111;
+  }
+
+  .p_1, .p_2, .p_3, .p_4, .p_5{
+    padding-left: 48px;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    /* or 32px */
+
+
+    color: #000000;
+  }
+
+
+
+  .accord_h3{
+      margin-top: -70px;
+      margin-left: 47px;
+  }
+
+.spisok{
+    top: 120px;
+
+  }
+
+  :root {
+
+  --purple: #ffffff;
+  --purple-pink: #ffffff;
+  --gray-white: #000000;
+  --box-shadow: 5px 5px 50px 10px rgba(40, 39, 86, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.content {
+
+}
+
+.content__accordion {
+  padding-top: 220px;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1169px;
+  margin: 0 auto;
+}
+
+.accordion__wrapper,
+.accordion__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion__wrapper {
+  gap: 10px;
+}
+
+.accordion__item--summary,
+.accordion__item--detail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--light-pink);
+  border-radius: 15px;
+}
+
+.accordion__item--summary {
+  flex-direction: row;
+  background-color: var(--purple-pink);
+  cursor: pointer;
+  height: 61px;
+}
+
+.accordion__item--detail {
+  margin-top: 0px;
+  background-color: var(--purple);
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.bag{
+    position: relative;
+    margin-left: 85%;
+    margin-top: -120px;
+
+}
+
+.elipse6{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.elipse8{
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.line1, .line2, .line3, .line4, .line5  {
+  border-left: 1px solid #00000ccc;
+  top: 20px;
+  position: relative;
+  left: 3px;
+ }
+.accordion__item-title h5 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    /* identical to box height, or 32px */
+
+
+    color: #111111;
+    padding-left: 20px;
+}
+
+.accordion__item-toggler {
+  margin-left: auto;
+}
+
+.accordion__item-toggler button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--white)
+}
+
+.accordion__detail-section {
+    padding: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    /* or 32px */
+
+
+    color: #000000;
+}
+
+.accordion__item--active .accordion__item-toggler button i {
+   transform: rotate(180deg);
+}
+
+.accordion__item--active .accordion__item--detail {
+  max-height: 500px;
+  opacity: 1;
+  visibility: visible;
+  margin-top: -61px;
+}
+
+@media (max-width: 480px) {
+
+  .new_window{
+      min-height: 530px;
+      padding-bottom: 40px;
+  }
+
+  .spisok{
+    top: 20px;
+    width: 280px;
+    height: 109px;
+    left: 16%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 150%;
+    /* or 34px */
+
+    text-align: center;
+
+    color: #111111;
+  }
+
+  .bag{
+    display: none;
+
+}
+
+.content {
+
+}
+
+.content__accordion {
+  padding-top: 145px;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1169px;
+  margin: 0 auto;
+}
+
+.accordion__wrapper,
+.accordion__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion__wrapper {
+  gap: 10px;
+}
+
+.accordion__item--summary,
+.accordion__item--detail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.accordion__item--summary {
+  flex-direction: row;
+  background-color: var(--purple-pink);
+  cursor: pointer;
+  height: 61px;
+}
+
+.accordion__item--detail {
+  margin-top: 0px;
+  background-color: var(--purple);
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.elipse6{
+    width: 44px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.accordion__item-title h5 {
+
+    /* Paragraph mobile */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 175%;
+/* identical to box height, or 30px */
+
+
+color: #111111;
+
+    /* identical to box height, or 32px */
+
+
+    color: #111111;
+    padding-left: 20px;
+}
+
+.accordion__item-toggler {
+  margin-left: auto;
+}
+
+.accordion__item-toggler button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--white)
+}
+
+.accordion__detail-section {
+    padding: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 175%;
+    /* or 30px */
+
+
+    color: #000000;;
+}
+
+.accordion__item--active .accordion__item-toggler button i {
+   transform: rotate(180deg);
+}
+
+.accordion__item--active .accordion__item--detail {
+  max-height: 1000px;
+  opacity: 1;
+  visibility: visible;
+  margin-top: -61px;
+}
+
+.p_1, .p_2, .p_3, .p_4, .p_5{
+  padding-left: 48px;
+  top: 10px;
+  /* Paragraph mobile */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 175%;
+  /* or 30px */
+
+
+  color: #000000;
+
+}
+
+
+
+.accord_h3{
+    margin-top: -64px;
+    width: 233px;
+    height: 27px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 27px;
+    /* identical to box height, or 159% */
+
+margin-left: 36px;
+color: #111111;
+}
+
+.elipse8{
+  position: relative;
+  top: -32px;
+  left: -10px;
+  width: 15px;
+  height: 15px;
+}
+
+.line1, .line5{
+border-left: 1px solid #00000ccc;
+top: 25px;
+position: relative;
+left: -3px;
+}
+
+.line2, .line3, .line4{
+  border-left: 1px solid #00000ccc;
+  top: 45px;
+  position: relative;
+  left: -3px;
+}
+
+}

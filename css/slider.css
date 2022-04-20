@@ -1,0 +1,290 @@
+.swiper {
+    width: 1100px;
+    height: 400px;
+    top: 240px;
+    width: 1300px;
+    height: 350px;
+  }
+  
+  .swiper-slide {
+   
+    font-size: 18px;
+    background: #fff;
+    border: 2px solid #67AEFC;
+    border-radius: 15px;
+  
+    /* Center slide text vertically */
+
+  }
+  
+  .swiper-slide img {
+    
+  }
+
+  .swiper-button-next {
+    top: 100px;
+}
+
+
+h3{
+    margin-top: 60px;
+    margin-left: 50px;
+    
+    /* H3 */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 125%;
+    
+    /* or 26px */
+    
+    
+    color: #000000;
+    
+    }
+
+    .h_slide2{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    .h_slide3{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .h_slide4{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .h_slide5{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+  .nadpis{
+
+    left: 50px;
+    top: 110px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    
+    color: #000000;
+    }
+
+    .nadpis5{
+
+        left: 50px;
+        top: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        /* or 25px */
+        
+        
+        color: #000000;
+        }
+    
+    .top-right{
+      width: 250px;
+      height: 250px;
+      margin-top: -55px;
+      margin-left: 360px;
+  }
+    
+    .cake{
+   
+        margin-top: -35px;
+        margin-left: 360px;
+    }
+
+    .mobile{
+        margin-top: -65px;
+        margin-left: 322px;
+    }
+  
+    .group{
+        margin-top: -20px;
+        margin-left: 365px;
+    }
+
+    .group2{
+        margin-top: -50px;
+        margin-left: 355px;
+    }
+
+    .shape_sphare2{
+        position: relative;
+        left: 5.94%;
+        right: 86.55%;
+        top: -22.63%;
+        bottom: 71.54%;
+        transform: rotate(3.22deg);
+    }
+
+    .shape_wave2{
+        position: relative;
+        left: 80.42%;
+        right: 9.69%;
+        top: 48.07%;
+        bottom: 60.8%;
+    }
+
+        
+
+    @media (max-width: 480px) {
+
+
+        .swiper {
+            top: 52px;
+            width: 376px;
+            height: 605px
+          }
+
+          .swiper-slide {
+   
+            font-size: 18px;
+            background: #fff;
+            border: 2px solid #67AEFC;
+            border-radius: 15px;
+          
+            /* Center slide text vertically */
+        
+          }
+          
+          .swiper-slide img {
+            
+          }
+        
+          .swiper-button-next {
+            top: 100px;
+        }
+        
+        
+        h3{
+            margin-top: 28px;
+            margin-left: 47px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 27px;
+            text-transform: uppercase;
+            color: #000000;
+        
+            
+            }
+        
+            .h_slide2{
+                margin-top: 28px;
+                margin-left: 47px;
+            }
+        
+            .h_slide3{
+                margin-top: 28px;
+                margin-left: 50px;
+            }
+            .h_slide4{
+                margin-top: 28px;
+                margin-left: 50px;
+            }
+            .h_slide5{
+                margin-top: 28px;
+                margin-left: 50px;
+            }
+        
+          .nadpis{
+        
+            left: -13px;
+            top: 60px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 175%;
+            color: #000000;
+            padding: 0px 58px 0px;
+            
+            }
+        
+            .nadpis5{
+        
+                left: -7px;
+                top: 60px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 175%;
+                color: #000000;
+                padding: 0px 58px 0px;
+                }
+            
+            .top-right{
+                width: 250px;
+                height: 250px;
+                margin-top: 255px;
+                margin-left: 57px;
+          }
+            
+            .cake{
+           
+                margin-top: 281px;
+                margin-left: 71px;
+            }
+        
+            .mobile{
+                margin-top: 237px;
+                margin-left: 30px;
+            }
+          
+            .group{
+                margin-top: 275px;
+                margin-left: 54px;
+            }
+        
+            .group2{
+                margin-top: 288px;
+                margin-left: 76px;
+                width: 241.27px;
+            }
+        
+            .shape_sphare2{
+                position: relative;
+                left: -8.06%;
+                right: 86.55%;
+                top: -74.63%;
+                bottom: 71.54%;
+                transform: rotate(3.22deg);
+            }
+        
+            .shape_wave2{
+                position: relative;
+                left: 80.42%;
+                right: 9.69%;
+                top: 48.07%;
+                bottom: 60.8%;
+            }
+
+            .etap{
+                position: relative;
+                left: 8%;
+                width: 350px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 23px;
+                line-height: 150%;
+                text-align: center;
+                top: 7%;
+                color: #111111;
+            }
+    }
