@@ -3,7 +3,7 @@
     position: relative;
     width: 630.67px;
     height: 40px;
-    left: 370px;
+    left: 19.4%;
     text-align: center;
     top: 250px;
     font-family: 'Montserrat';
@@ -19,10 +19,10 @@
 
   .nadpis2{
     position: absolute;
-    width: 432px;
+    width: 600px;
     height: 88px;
-    left: 80px;
-    top: -130px;
+    left: 20%;
+    top: 330px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -31,18 +31,13 @@
     color: #000000;
   }
   
-  .nadpis2weight{
-    width: 600px;
-    left: 68%;
-    top: 480px;
-  }
   
   .zayava{
     position: absolute;
     width: 270px;
     height: 60px;
-    left: 370px;
-    top: 520px;
+    left: 20%;
+    top: 490px;
     border: none;
     background: #75E169;
     border-radius: 5px;
@@ -84,7 +79,7 @@
     position: relative;
     left: 53%;
     right: -28.33%;
-    top: 22.42%;
+    top: 16.42%;
     bottom: 21.77%;
   }
 
@@ -149,23 +144,19 @@
 
   .nadpis2{
     position: absolute;
-    width: 335px;
     height: 325px;
-    left: -235px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 175%;
     color: #111111;
+    width: 325px;
+    left: 11%;
+    top: 395px;
     
   }
   
-  .nadpis2weight{
-    width: 320px;
-    left: 86%;
-    top: 516px;
-  }
   
   .zayava{
     position: absolute;

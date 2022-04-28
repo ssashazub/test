@@ -37,24 +37,35 @@
   color: #FFFFFF;
 }
 
-.menu a:active{
-    color: #67AEFC;
-}
-
 .header_zakaz {
-  padding: 55px 15px;
   background: #75E169;
   border-radius: 5px;
   text-align: center;
   width: 170px;
+  border: none;
+  cursor: pointer;
 }
 
-.header_zakaz:hover{
+.header_zakaz1:hover{
     border: 2px solid #FFFFFF;
 }
 
 .header_zakaz:active{
     background: #FFFFFF;
+}
+
+.header_zakaz1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.header_zakaz1:active{
+    color: #67AEFC; 
 }
 
 .dots{
@@ -70,9 +81,7 @@ display: none;
       font-size: 13px;
   }
 
-  .header_zakaz {
-      padding: 30px 10px;
-  }
+
   .sedcus-tomika {
       width: 900px;
   }
@@ -91,11 +100,6 @@ display: none;
   .menu a {
       font-size: 13px;
   }
-
-  .header_zakaz {
-      padding: 30px 10px;
-  }
-
 
 }
 

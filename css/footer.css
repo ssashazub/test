@@ -108,11 +108,11 @@ li{
 }
 
 .icons{
-  position: absolute;
+  position: relative;
   width: 300px;
   height: 25.28px;
   left: 19%;
-  top: 230px;
+  top: 170px;
   letter-spacing: 26px;
 }
 
