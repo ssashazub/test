@@ -43,6 +43,7 @@
   text-align: center;
   width: 170px;
   border: none;
+  cursor: pointer;
 }
 
 .header_zakaz1:hover{
@@ -80,9 +81,7 @@ display: none;
       font-size: 13px;
   }
 
-  .header_zakaz {
-      padding: 30px 10px;
-  }
+
   .sedcus-tomika {
       width: 900px;
   }
@@ -101,11 +100,6 @@ display: none;
   .menu a {
       font-size: 13px;
   }
-
-  .header_zakaz {
-      padding: 30px 10px;
-  }
-
 
 }
 
