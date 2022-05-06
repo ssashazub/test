@@ -1,13 +1,55 @@
 .window {
-    position: relative;
+    background-image: url(..//pictures/BG_w1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.wrapper1 {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1920px;
+}
+
+.flex {
+  display: flex;
+}
+
+section {
+  padding: 120px 0px;
+}
+
+.window .flex{
+  flex-direction: column;
+  width: 43%;
+}
+
+.window .wrapper1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.window img {
+  max-width: 35%;
+  max-height: 35%;
+  width: 100%;
+  height: 100%;
+}
+
+.window h1 {
+  margin-bottom: 20px;
+  max-width: 570px;
+}
+
+.window p {
+  margin-bottom: 60px;
+  max-width: 430px;
+}
+
+
 H1{
-    position: absolute;
-    width: 560px;
-    height: 189px;
-    left: 19%;
-    top: 150px;
+   
 
     /* H1 */
 
@@ -22,11 +64,7 @@ H1{
     color: #484848;
 }
 p{
-    position: absolute;
-
-    height: 88px;
-    left: 19%;
-    top: 375px;
+    
 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -37,7 +75,6 @@ p{
     color: #000000;
 }
 .zakaz{
-    position: absolute;
     width: 270px;
     height: 60px;
     left: 19%;
@@ -70,13 +107,7 @@ p{
   color: #FFFFFF;
 }
 .market{
-  position: absolute;
-  left: 51.77%;
-  right: 21.72%;
-  top: 140px;
-  bottom: 86.47%;
-
-transform: rotate(-3deg);
+ 
 }
 .ellipse{
   position: absolute;
@@ -87,48 +118,20 @@ transform: rotate(-3deg);
 }
 .shape_cylinder{
   position: absolute;
-  left: 64.11%;
-  right: 29.95%;
-  top: 14%;
+  left: 62.11%;
+  top: 14.02%;
   bottom: 96.06%;
 }
-.shape_wave{
-  position: absolute;
-  left: 51.68%;
-  right: 39.43%;
-  top: 65%;
-  bottom: 90.41%;
-}
-.shape_wave1{
-  position: absolute;
-  left: 76.61%;
-  right: 11.82%;
-  top: 40%;
-  bottom: 92.71%;
-}
-.shape_share{
-  position: absolute;
-  left: 84.96%;
-  right: 12.97%;
-  top: 55%;
-  bottom: 90.85%;
-}
-.shape_cylinder1{
-  position: absolute;
-  left: 80%;
-  right: 14.22%;
-  top:76%;
-  bottom: 87.8%;
-}
+
 .shape_share1{
   position: absolute;
-  left: 12.45%;
+  left: 0.45%;
   right: 84.81%;
-  top: 20%;
+  top: 8%;
   bottom: 95.67%;
 }
 .ellipse1{
-  position: relative;
+  position: absolute;
   width: 149px;
   height: 183px;
   left: -2px;
@@ -187,13 +190,13 @@ br{
 }
 
 .zakaz{
-    width: 335px;
-    height: 60px;
-    left: 35px;
-    top: 650px;
-
-    background: #75E169;
-    border-radius: 10px;
+  width: 335px;
+  height: 60px;
+  left: -195px;
+  top: 485px;
+  background: #75E169;
+  border-radius: 10px;
+  position: relative;
 }
 .btnclr{
 
@@ -208,7 +211,11 @@ br{
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.market{
+
+.window img{
+    display: none;
+}
+/* .market{
   position: absolute;
   left: 22%;
   right: 21.72%;
@@ -302,6 +309,7 @@ transform: rotate(14deg);
     bottom: 88.56%;
     display: flex;
 
-}
+} */
 
 }
+

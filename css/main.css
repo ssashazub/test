@@ -20,17 +20,14 @@ body{
 
 .window{
   position: relative;
-  max-width: 1920px;
   margin: 0 auto;
   height: 766px;
   left: 0px;
-  background: #FFFFFF;
 }
 
 
 .new_window{
   position: relative;
-  max-width: 1920px;
   margin: 0 auto;
   padding: 0px 0px 100px;
   left: 0px;
@@ -39,7 +36,6 @@ body{
 
 .new_window2{
   position: relative;
-  max-width: 1920px;
   margin: 0 auto;
   height: 908px;
   left: 0px;
@@ -47,7 +43,6 @@ body{
 
 .new_window3{
   position: relative;
-  max-width: 1920px;
   margin: 0 auto;
   height: 1749px;
   left: 0px;
@@ -58,7 +53,6 @@ body{
 
 .new_window4{
   position: relative;
-  max-width: 1920px;
   margin: 0 auto;
   height: 724px;
   background: #FFFFFF;
@@ -66,7 +60,6 @@ body{
 
 .new_window5{
   position: relative;
-  max-width: 1920px;
   height: 774px;
   background: #DAECFF;
   margin: 0 auto;
