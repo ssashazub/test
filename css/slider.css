@@ -64,9 +64,9 @@ h3{
     }
 
   .nadpis{
-
-    left: 50px;
-    top: 110px;
+    position: relative;
+    margin-left: 50px;
+    top: 25px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -80,8 +80,8 @@ h3{
 
     .nadpis5{
 
-        left: 50px;
-        top: 90px;
+        margin-left: 50px;
+        margin-top: 25px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -96,28 +96,28 @@ h3{
     .top-right{
       width: 250px;
       height: 250px;
-      margin-top: -55px;
+      margin-top: -205px;
       margin-left: 360px;
   }
     
     .cake{
    
-        margin-top: -35px;
+        margin-top: -210px;
         margin-left: 360px;
     }
 
     .mobile{
-        margin-top: -65px;
+        margin-top: -265px;
         margin-left: 322px;
     }
   
     .group{
-        margin-top: -20px;
+        margin-top: -200px;
         margin-left: 365px;
     }
 
     .group2{
-        margin-top: -50px;
+        margin-top: -270px;
         margin-left: 355px;
     }
 
@@ -203,51 +203,50 @@ h3{
         
           .nadpis{
         
-            left: -13px;
-            top: 60px;
+            left: -20px;
+            top: 5px;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
             font-size: 17px;
             line-height: 175%;
             color: #000000;
-            padding: 0px 58px 0px;
+            padding: 0px 20px 0px;
             
             }
         
             .nadpis5{
-        
-                left: -7px;
-                top: 60px;
+                left: -20px;
+                top: 35px;
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 17px;
                 line-height: 175%;
                 color: #000000;
-                padding: 0px 58px 0px;
+                padding: 0px 20px 0px;
                 }
             
             .top-right{
                 width: 250px;
                 height: 250px;
-                margin-top: 255px;
+                margin-top: 160px;
                 margin-left: 57px;
           }
             
             .cake{
            
-                margin-top: 281px;
+                margin-top: 200px;
                 margin-left: 71px;
             }
         
             .mobile{
-                margin-top: 237px;
+                margin-top: 138px;
                 margin-left: 30px;
             }
           
             .group{
-                margin-top: 275px;
+                margin-top: 195px;
                 margin-left: 54px;
             }
         

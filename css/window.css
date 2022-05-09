@@ -213,7 +213,7 @@ br{
 }
 
 .window img{
-    display: none;
+    
 }
 /* .market{
   position: absolute;
@@ -310,6 +310,7 @@ transform: rotate(14deg);
     display: flex;
 
 } */
+
 
 }
 

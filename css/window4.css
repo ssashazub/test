@@ -1,11 +1,5 @@
 
-.h23{
-    position: relative;
-    width: 630.67px;
-    height: 40px;
-    left: 19.4%;
-    text-align: center;
-    top: 250px;
+.h23{   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -15,14 +9,38 @@
     
   }
   
+  .wrapper4 {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1920px;
+  }
 
+  .new_window4 .wrapper4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .new_window4 h2{
+    margin-bottom: 75px;
+    max-width: 630px;
+  }
+
+  .flex4{
+      display: flex;
+  }
+
+  .new_window4 .flex4{
+    flex-direction: column;
+    width: 45%;
+  }
+
+  .new_window4 p{
+    margin-bottom: 40px;
+    max-width: 595px;
+  }
 
   .nadpis2{
-    position: absolute;
-    width: 600px;
-    height: 88px;
-    left: 20%;
-    top: 330px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -33,11 +51,8 @@
   
   
   .zayava{
-    position: absolute;
     width: 270px;
     height: 60px;
-    left: 20%;
-    top: 490px;
     border: none;
     background: #75E169;
     border-radius: 5px;
@@ -72,18 +87,21 @@
     right: 88.96%;
     top: 190px;
     bottom: 28.44%;
+    display: none;
     
   }
   
   .order{
-    position: relative;
-    left: 53%;
-    right: -28.33%;
-    top: 16.42%;
-    bottom: 21.77%;
+   
   }
 
-  
+  .new_window4 img{
+    max-width: 35%;
+    max-height: 35%;
+    width: 100%;
+    height: 100%; 
+  }
+
   .group_w4{
     display: none;
 }
