@@ -9,25 +9,39 @@ footer {
 }
 
 .pfoot{
-    top: 350px;
+    margin-top: 70px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 175%;
     /* identical to box height, or 32px */
-
-    left: 42%;
     color: #FFFFFF;
+    text-align: center;
+
+}
+
+.wrapper_f {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1920px;
+}
+
+footer .wrapper_f {
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
 
-
+.col{
+  width: 25%;
+  padding: 2%;
+  text-align: left;
+  margin-top: 60px;
+}
 
 ul.submenu{
-  position: absolute;
-  width: 800px;
   height: 100px;
   left: 42%;
   top: 130px;
@@ -38,51 +52,30 @@ ul.submenu{
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
- 
-  list-style: none;
+
 }
 
+li {
+  list-style: none; 
+  background: url(..//pictures/Viber.png) no-repeat 0 4px;
+  padding-left: 24px; 
+ }
+
 li{
-      padding: 5px;
+      padding: 5px 30px;
       
 }
 
 .logo2{
-  position: absolute;
   left: 430px;
   right: 61.33%;
   bottom: 37.56%;
-  width: 200px;
   top: 150px;
 
 }
 
-.viber{
-  position: absolute;
-  left: -3%;
-  right: 21.88%;
-  top: 6px;
-  bottom: 6.25%;
-}
-
-.viber1{
-  position: absolute;
-  left: -3%;
-  right: 21.88%;
-  top: 40px;
-  bottom: 6.25%;
-}
-
-.viber2{
-  position: absolute;
-  left: -3%;
-  right: 21.88%;
-  top: 73px;
-  bottom: 6.25%;
-}
 
 .e-mail{
-  position: absolute;
   width: 133px;
   height: 24px;
   left: 70%;
@@ -100,19 +93,16 @@ li{
 }
 
 .logo2{
-  position: relative;
-  width: 242px;
-  height: 59px;
+  max-width: 242px;
+  max-height: 59px;
   left: 19%;
   top: 130px;
 }
 
 .icons{
-  position: relative;
-  width: 300px;
   height: 25.28px;
   left: 19%;
-  top: 170px;
+  margin-top: 40px;
   letter-spacing: 26px;
 }
 
@@ -143,24 +133,22 @@ a{
     position: relative;
     width: 242px;
     height: 59px;
-    left: 19%;
-    top: 55px;
+    left: 50%;
+    top: -20px;
   }
 
   ul.submenu{
     position: absolute;
     width: 800px;
     height: 100px;
-    left: 24%;
-    top: 130px;
-    
+    left: 20%;
+    top: 25%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-   
     list-style: none;
   }
 
@@ -168,38 +156,22 @@ a{
     position: absolute;
     width: 300px;
     height: 25.28px;
-    left: 19%;
-    top: 300px;
+    left: 20%;
+    top: 44%;
     letter-spacing: 26px;
   }
 
+  li {
+    list-style: none; 
+    background: url(..//pictures/Viber.png) no-repeat 0 4px;
+    padding-left: 24px; 
+   }
+  
   li{
-    padding: 10px;
-}
-
-.viber{
-  position: absolute;
-  left: -3%;
-  right: 21.88%;
-  top: 12px;
-  bottom: 6.25%;
-}
-
-.viber1{
-  position: absolute;
-  left: -3%;
-  right: 21.88%;
-  top: 56px;
-  bottom: 6.25%;
-}
-
-.viber2{
-  position: absolute;
-  left: -3%;
-  right: 21.88%;
-  top: 100px;
-  bottom: 6.25%;
-}
+        padding: 5px 30px;
+        
+  }
+  
 
 a{
   text-decoration: none;
@@ -237,19 +209,14 @@ a{
 .pfoot{
   width: 281px;
   height: 28px;
-  top: 415px;
-  left: 18%;
+  top: 60%;
+  left: 15%;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
-  /* or 20px */
-  
   text-align: center;
-  
-  /* white */
-  
   color: #FFFFFF;
 
 }

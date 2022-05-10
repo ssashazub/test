@@ -151,6 +151,13 @@ p{
 
 @media (max-width: 480px) {
 
+  .window {
+    background-image: url(..//pictures/ill.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 H1{
     position: absolute;
     width: 350px;
@@ -213,7 +220,7 @@ br{
 }
 
 .window img{
-    
+    display: none;
 }
 /* .market{
   position: absolute;

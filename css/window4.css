@@ -141,6 +141,15 @@
         display: none;
   }
 
+  .new_window4 img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%; 
+    margin-right: 15%;
+    margin-top: 10%;
+  }
+
   .group_w4{
     display: block;
     position: relative;
