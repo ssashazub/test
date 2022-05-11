@@ -1,26 +1,38 @@
-  
+  .wrapper5 {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1920px;
+  }
+
+  .new_window5 .wrapper5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .new_window5 .flex5{
+    flex-direction: column;
+  }
+
+  .flex5{
+      display: flex;
+  }
+
+  .new_window5 img{
+    
+  }
+
   .newh2{
-    position: absolute;
-    width: 320px;
-    height: 61px;
-    left: 39%;
-    top: 200px;
-    
-    /* H2 */
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 32px;
     line-height: 125%;
+    margin-bottom: 60px;
   }
 
   .nadpis3{
-    position: absolute;
-    width: 479px;
-    height: 64px;
-    left: 35%;
-    top: 280px;
+    max-width: 479px;
     
     /* Paragraph */
     
@@ -38,11 +50,8 @@
   
   .center {
     position: relative;
-    top: 380px;
-    left: 35%;
-    margin: 2px;
-    width: 700px;
-  
+    margin-top: 20px;
+
   }
   
   .center .inputbox {
@@ -196,18 +205,18 @@
     color: #111111;
   }
   
-  .center {
+  /* .center {
     position: relative;
     top: 190px;
     left: 10%;
     margin: 2px;
     width: 700px;
   
-  }
+  } */
   
   .center .inputbox {
     position: relative;
-    width: 335px;
+    width: 370px;
     height: 58px;
     margin-bottom: 50px;
   }
@@ -257,10 +266,10 @@
   }
 
   .postpaid{
-    position: relative;
+    position: absolute;
     left: 18.37%;
     right: -13.14%;
-    top: 24.2%;
+    top: 62.2%;
     bottom: 12.36%;
     display: block;
   }
@@ -273,14 +282,14 @@
       display: none;
   }
   .send{
-      position: absolute;
-      width: 335px;
-      height: 60px;
-      left: 0px;
-      top: 235px;
-      background: #6BD75F;
-      border-radius: 10px;
-      border: none;
+    position: absolute;
+    width: 335px;
+    height: 60px;
+    left: 20px;
+    top: 235px;
+    background: #6BD75F;
+    border-radius: 10px;
+    border: none;
   }
   
   .btnclr2{
@@ -300,6 +309,22 @@
   .new_window5{
       height: 839px;
       
+  }
+
+  .new_window5 .wrapper5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+    
+  .new_window5 .flex5{
+    flex-direction: column;
+    margin-top: 30px  ;
+  }
+
+  .flex5{
+      display: flex;
   }
 
   }
